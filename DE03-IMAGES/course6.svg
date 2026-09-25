@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f46e5"/><stop offset="1" stop-color="#111827"/></linearGradient><linearGradient id="scr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#818cf8"/><stop offset="1" stop-color="#3730a3"/></linearGradient></defs>
+<rect width="900" height="560" fill="url(#bg)"/>
+<circle cx="770" cy="90" r="155" fill="#fff" opacity=".07"/><circle cx="90" cy="510" r="190" fill="#fff" opacity=".05"/>
+<text x="70" y="90" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#fff" opacity=".35">&lt;/&gt;</text>
+<text x="770" y="470" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#fff" opacity=".25">{ }</text>
+<rect x="535" y="105" width="255" height="180" rx="16" fill="#111827" stroke="#fff" stroke-opacity=".25" stroke-width="4"/>
+<rect x="550" y="120" width="225" height="145" rx="9" fill="url(#scr)"/>
+<rect x="570" y="145" width="100" height="8" rx="4" fill="#fff" opacity=".85"/><rect x="570" y="165" width="155" height="8" rx="4" fill="#a5f3fc" opacity=".9"/><rect x="570" y="185" width="125" height="8" rx="4" fill="#fef08a" opacity=".9"/><rect x="590" y="205" width="95" height="8" rx="4" fill="#fff" opacity=".7"/><rect x="590" y="225" width="145" height="8" rx="4" fill="#86efac" opacity=".8"/>
+<path d="M500 300 L825 300 L855 325 L470 325 Z" fill="#0b1020" stroke="#fff" stroke-opacity=".18" stroke-width="3"/>
+<rect x="75" y="135" width="405" height="290" rx="28" fill="#fff" opacity=".10" stroke="#fff" stroke-opacity=".14"/>
+<text x="105" y="225" font-family="Arial,sans-serif" font-size="48" font-weight="800" fill="#fff">FULL STACK</text>
+<text x="105" y="270" font-family="Arial,sans-serif" font-size="29" font-weight="600" fill="#c7d2fe">WEB DEVELOPER</text>
+<text x="105" y="320" font-family="Arial,sans-serif" font-size="22" fill="#fff" opacity=".88">Frontend + Backend</text>
+<text x="105" y="355" font-family="Arial,sans-serif" font-size="22" fill="#fff" opacity=".88">Thực chiến dự án</text>
+<rect x="105" y="385" width="105" height="7" rx="3.5" fill="#a5b4fc"/><rect x="220" y="385" width="65" height="7" rx="3.5" fill="#fff" opacity=".35"/>
+</svg>

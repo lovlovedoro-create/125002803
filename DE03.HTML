@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EduMaster | Học trực tuyến - Phát triển tương lai</title>
+    <meta name="description" content="EduMaster - Trung tâm đào tạo trực tuyến với các khóa học lập trình, thiết kế, dữ liệu và kỹ năng nghề nghiệp.">
+    <meta name="keywords" content="EduMaster, khóa học trực tuyến, lập trình, thiết kế UI UX, Python, JavaScript, SQL">
+    <meta name="author" content="EduMaster">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link rel="stylesheet" href="DE03-STYLE.CSS">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="#home" aria-label="EduMaster - Trang chủ">
+                <span class="logo-mark">&lt;/&gt;</span>
+                <span>Edu<span class="logo-accent">Master</span></span>
+            </a>
+
+            <nav class="main-nav" aria-label="Menu chính">
+                <a class="active" href="#home">Trang chủ</a>
+                <a href="#courses">Khóa học</a>
+                <a href="#teachers">Giảng viên</a>
+                <a href="#fees">Học phí</a>
+                <a href="#register">Đăng ký</a>
+            </nav>
+
+            <div class="theme-switch">
+                <input type="checkbox" id="darkMode">
+                <label for="darkMode">
+                    <span class="sun">☀️</span>
+                    <span class="moon">🌙</span>
+                    <span class="theme-text">Dark Mode</span>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content animate__animated animate__fadeInLeft">
+                    <p class="eyebrow">🚀 HỌC HÔM NAY — DẪN ĐẦU NGÀY MAI</p>
+                    <h1>Học kỹ năng thực tế.<br><span>Kiến tạo tương lai.</span></h1>
+                    <p class="hero-description">
+                        Khám phá các khóa học được thiết kế theo hướng thực hành,
+                        giúp bạn xây dựng kiến thức, dự án và kỹ năng nghề nghiệp ngay từ hôm nay.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#courses" class="btn btn-primary">Xem khóa học <span>→</span></a>
+                        <a href="#register" class="btn btn-outline">Đăng ký ngay</a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div>
+                            <strong>5K+</strong>
+                            <span>Học viên</span>
+                        </div>
+                        <div>
+                            <strong>30+</strong>
+                            <span>Khóa học</span>
+                        </div>
+                        <div>
+                            <strong>20+</strong>
+                            <span>Giảng viên</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual animate__animated animate__fadeInRight">
+                    <div class="hero-card">
+                        <div class="hero-image">
+                            <img src="DE03-IMAGES/banner.svg" alt="Lớp học trực tuyến EduMaster">
+                            <div class="floating-badge badge-top">⭐ 4.9/5 đánh giá</div>
+                            <div class="floating-badge badge-bottom">🎓 Học mọi lúc, mọi nơi</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trust-section">
+            <div class="container trust-grid">
+                <div class="trust-item">
+                    <span class="trust-icon">🎯</span>
+                    <div><strong>Học thực tế</strong><small>Ưu tiên thực hành</small></div>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">👨‍🏫</span>
+                    <div><strong>Giảng viên</strong><small>Kinh nghiệm thực tế</small></div>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">📱</span>
+                    <div><strong>Học linh hoạt</strong><small>Trên mọi thiết bị</small></div>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-icon">🏆</span>
+                    <div><strong>Chứng nhận</strong><small>Hoàn thành khóa học</small></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="courses" class="section courses-section">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-label">KHÓA HỌC NỔI BẬT</p>
+                        <h2>Chọn khóa học phù hợp với bạn</h2>
+                    </div>
+                    <p class="section-intro">
+                        Nội dung ngắn gọn, thực tế và tập trung vào kỹ năng có thể áp dụng.
+                    </p>
+                </div>
+
+                <div class="course-grid">
+                    <article class="course-card animate__animated animate__fadeInUp">
+                        <div class="course-image">
+                            <img src="DE03-IMAGES/course1.svg" alt="Khóa học HTML CSS">
+                            <span class="course-tag">Bán chạy</span>
+                        </div>
+                        <div class="course-body">
+                            <span class="level">CƠ BẢN</span>
+                            <h3>HTML & CSS từ cơ bản đến thực chiến</h3>
+                            <p class="course-meta">⏱ 8 tuần &nbsp; • &nbsp; 32 bài học</p>
+                            <div class="course-bottom">
+                                <strong>799.000đ</strong>
+                                <a href="#register" aria-label="Đăng ký khóa HTML CSS">→</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="course-card animate__animated animate__fadeInUp">
+                        <div class="course-image">
+                            <img src="DE03-IMAGES/course2.svg" alt="Khóa học JavaScript">
+                            <span class="course-tag">Phổ biến</span>
+                        </div>
+                        <div class="course-body">
+                            <span class="level">CƠ BẢN - KHÁ</span>
+                            <h3>JavaScript Front-end hiện đại</h3>
+                            <p class="course-meta">⏱ 10 tuần &nbsp; • &nbsp; 40 bài học</p>
+                            <div class="course-bottom">
+                                <strong>1.199.000đ</strong>
+                                <a href="#register" aria-label="Đăng ký khóa JavaScript">→</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="course-card animate__animated animate__fadeInUp">
+                        <div class="course-image">
+                            <img src="DE03-IMAGES/course3.svg" alt="Khóa học Python">
+                            <span class="course-tag">Mới</span>
+                        </div>
+                        <div class="course-body">
+                            <span class="level">CƠ BẢN</span>
+                            <h3>Python cho người mới bắt đầu</h3>
+                            <p class="course-meta">⏱ 9 tuần &nbsp; • &nbsp; 36 bài học</p>
+                            <div class="course-bottom">
+                                <strong>999.000đ</strong>
+                                <a href="#register" aria-label="Đăng ký khóa Python">→</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="course-card animate__animated animate__fadeInUp">
+                        <div class="course-image">
+                            <img src="DE03-IMAGES/course4.svg" alt="Khóa học UI UX">
+                        </div>
+                        <div class="course-body">
+                            <span class="level">CƠ BẢN - KHÁ</span>
+                            <h3>UI/UX Design với Figma</h3>
+                            <p class="course-meta">⏱ 7 tuần &nbsp; • &nbsp; 28 bài học</p>
+                            <div class="course-bottom">
+                                <strong>899.000đ</strong>
+                                <a href="#register" aria-label="Đăng ký khóa UI UX">→</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="course-card animate__animated animate__fadeInUp">
+                        <div class="course-image">
+                            <img src="DE03-IMAGES/course5.svg" alt="Khóa học SQL">
+                        </div>
+                        <div class="course-body">
+                            <span class="level">KHÁ</span>
+                            <h3>SQL & Quản trị cơ sở dữ liệu</h3>
+                            <p class="course-meta">⏱ 8 tuần &nbsp; • &nbsp; 30 bài học</p>
+                            <div class="course-bottom">
+                                <strong>1.099.000đ</strong>
+                                <a href="#register" aria-label="Đăng ký khóa SQL">→</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="course-card animate__animated animate__fadeInUp">
+                        <div class="course-image">
+                            <img src="DE03-IMAGES/course6.svg" alt="Khóa học Full Stack">
+                            <span class="course-tag">Nâng cao</span>
+                        </div>
+                        <div class="course-body">
+                            <span class="level">NÂNG CAO</span>
+                            <h3>Full Stack Web Developer</h3>
+                            <p class="course-meta">⏱ 16 tuần &nbsp; • &nbsp; 64 bài học</p>
+                            <div class="course-bottom">
+                                <strong>2.499.000đ</strong>
+                                <a href="#register" aria-label="Đăng ký khóa Full Stack">→</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="teachers" class="section teachers-section">
+            <div class="container">
+                <div class="section-heading centered">
+                    <p class="section-label">ĐỘI NGŨ GIẢNG VIÊN</p>
+                    <h2>Học cùng những người có kinh nghiệm</h2>
+                    <p class="section-intro">
+                        Giảng viên đồng hành, hướng dẫn từng bước và chia sẻ kinh nghiệm thực tế.
+                    </p>
+                </div>
+
+                <div class="teacher-grid">
+                    <article class="teacher-card">
+                        <div class="teacher-avatar">👨🏻‍💻</div>
+                        <h3>Nguyễn Minh Anh</h3>
+                        <p>Frontend Developer</p>
+                    </article>
+                    <article class="teacher-card">
+                        <div class="teacher-avatar">👩🏻‍🎨</div>
+                        <h3>Trần Ngọc Mai</h3>
+                        <p>UI/UX Designer</p>
+                    </article>
+                    <article class="teacher-card">
+                        <div class="teacher-avatar">👨🏻‍💼</div>
+                        <h3>Lê Hoàng Nam</h3>
+                        <p>Backend Engineer</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="fees" class="section fee-section">
+            <div class="container fee-layout">
+                <div>
+                    <p class="section-label">HỌC PHÍ</p>
+                    <h2>Đầu tư cho kiến thức,<br><span>đầu tư cho tương lai.</span></h2>
+                    <p>
+                        Học phí minh bạch, không phát sinh chi phí ẩn. Học viên được
+                        truy cập nội dung trong suốt thời gian khóa học.
+                    </p>
+                </div>
+
+                <div class="fee-box">
+                    <div>
+                        <span>Gói tiêu chuẩn</span>
+                        <strong>Từ 799.000đ</strong>
+                    </div>
+                    <ul>
+                        <li>✓ Video bài giảng chất lượng cao</li>
+                        <li>✓ Tài liệu học tập</li>
+                        <li>✓ Bài tập thực hành</li>
+                        <li>✓ Hỗ trợ giải đáp</li>
+                    </ul>
+                    <a href="#register" class="btn btn-primary">Đăng ký khóa học</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="register" class="section register-section">
+            <div class="container">
+                <div class="section-heading centered">
+                    <p class="section-label">ĐĂNG KÝ HỌC</p>
+                    <h2>Sẵn sàng bắt đầu hành trình?</h2>
+                    <p class="section-intro">
+                        Điền thông tin bên dưới. EduMaster sẽ liên hệ để tư vấn khóa học phù hợp.
+                    </p>
+                </div>
+
+                <form id="registerForm" class="register-form">
+                    <div class="form-header">
+                        <div>
+                            <h3>Thông tin học viên</h3>
+                            <p>Vui lòng điền đầy đủ các trường bắt buộc.</p>
+                        </div>
+                        <span class="required-note">* Bắt buộc</span>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="fullname">Họ và tên <span>*</span></label>
+                            <input id="fullname" name="fullname" type="text"
+                                   placeholder="Nguyễn Văn A" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="birthday">Ngày sinh <span>*</span></label>
+                            <input id="birthday" name="birthday" type="date" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email <span>*</span></label>
+                            <input id="email" name="email" type="email"
+                                   placeholder="email@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Điện thoại <span>*</span></label>
+                            <input id="phone" name="phone" type="tel"
+                                   placeholder="09xxxxxxxx" required>
+                        </div>
+
+                        <fieldset class="form-group full-width">
+                            <legend>Trình độ hiện tại <span>*</span></legend>
+                            <div class="choice-row">
+                                <label class="choice">
+                                    <input type="radio" name="level" value="beginner" required>
+                                    <span>Mới bắt đầu</span>
+                                </label>
+                                <label class="choice">
+                                    <input type="radio" name="level" value="basic">
+                                    <span>Đã biết cơ bản</span>
+                                </label>
+                                <label class="choice">
+                                    <input type="radio" name="level" value="advanced">
+                                    <span>Nâng cao</span>
+                                </label>
+                            </div>
+                        </fieldset>
+
+                        <div class="form-group full-width">
+                            <label for="course">Khóa muốn học <span>*</span></label>
+                            <select id="course" name="course" required>
+                                <option value="">-- Chọn khóa học --</option>
+                                <option value="html-css">HTML & CSS từ cơ bản đến thực chiến</option>
+                                <option value="javascript">JavaScript Front-end hiện đại</option>
+                                <option value="python">Python cho người mới bắt đầu</option>
+                                <option value="uiux">UI/UX Design với Figma</option>
+                                <option value="sql">SQL & Quản trị cơ sở dữ liệu</option>
+                                <option value="fullstack">Full Stack Web Developer</option>
+                            </select>
+                        </div>
+
+                        <fieldset class="form-group full-width">
+                            <legend>Ca học phù hợp <span>*</span></legend>
+                            <div class="choice-row">
+                                <label class="choice">
+                                    <input type="checkbox" name="schedule" value="morning">
+                                    <span>🌅 Sáng</span>
+                                </label>
+                                <label class="choice">
+                                    <input type="checkbox" name="schedule" value="afternoon">
+                                    <span>☀️ Chiều</span>
+                                </label>
+                                <label class="choice">
+                                    <input type="checkbox" name="schedule" value="evening">
+                                    <span>🌙 Tối</span>
+                                </label>
+                                <label class="choice">
+                                    <input type="checkbox" name="schedule" value="weekend">
+                                    <span>📅 Cuối tuần</span>
+                                </label>
+                            </div>
+                        </fieldset>
+
+                        <div class="form-group full-width">
+                            <label for="goal">Mục tiêu học tập <span>*</span></label>
+                            <textarea id="goal" name="goal" rows="5"
+                                      placeholder="Ví dụ: Tôi muốn học để xây dựng website cá nhân và chuẩn bị cho công việc Front-end..."
+                                      required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button class="btn btn-primary" type="submit">Đăng ký học →</button>
+                        <button class="btn btn-reset" type="reset">Nhập lại</button>
+                    </div>
+
+                    <p id="formMessage" class="form-message" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="logo footer-logo" href="#home">
+                    <span class="logo-mark">&lt;/&gt;</span>
+                    <span>Edu<span class="logo-accent">Master</span></span>
+                </a>
+                <p>
+                    Trung tâm đào tạo trực tuyến giúp bạn học kỹ năng thực tế
+                    và tự tin phát triển sự nghiệp.
+                </p>
+            </div>
+
+            <div>
+                <h3>Liên hệ</h3>
+                <p>📍 123 Nguyễn Văn Linh, TP. Hồ Chí Minh</p>
+                <p>✉️ hello@edumaster.vn</p>
+                <p>☎️ 0901 234 567</p>
+            </div>
+
+            <div>
+                <h3>Hỗ trợ</h3>
+                <a href="#courses">Danh sách khóa học</a>
+                <a href="#fees">Thông tin học phí</a>
+                <a href="#register">Đăng ký tư vấn</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 EduMaster. All rights reserved.</p>
+            <p>Thiết kế phục vụ bài thực hành HTML & CSS.</p>
+        </div>
+    </footer>
+</body>
+</html>
